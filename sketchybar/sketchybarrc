@@ -1,5 +1,3 @@
-# A simple sketchybar config for aerospace users to get started with
-# Not too different from the base starting config!
 source "$HOME/.config/sketchybar/colors.sh" # Loads all defined colors
 
 PLUGIN_DIR="$CONFIG_DIR/plugins"
@@ -94,7 +92,7 @@ for monitor in $(aerospace list-monitors); do
 done
 
 
-#front app
+# front app
 # source "$ITEM_DIR/front_app.sh"
 
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOCK_FILE="$HOME/.show_bar.lock"
+LOCK_FILE="$TMPDIR/.show_bar.lock"
 
 # Check if the script is already running
 if [ -f "$LOCK_FILE" ]; then

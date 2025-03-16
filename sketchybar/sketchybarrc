@@ -72,15 +72,15 @@ for monitor in $(aerospace list-monitors); do
 
     sketchybar --set space.$sid drawing=on
 
-    icon_strip=" "
+    label_icon_strip=" "
     if [ "${apps}" != "" ]; then
       while read -r app; do
-        icon_strip+=" $($CONFIG_DIR/plugins/icon_map_fn.sh "$app") "
+        label_icon_strip+=" $($CONFIG_DIR/plugins/icon_map_fn.sh "$app") "
       done <<<"${apps}"
     else
-      icon_strip=""
+      label_icon_strip=""
     fi
-    sketchybar --set space.$sid label="$icon_strip"               
+    sketchybar --set space.$sid label="$label_icon_strip"               
              
   done
 done

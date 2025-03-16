@@ -126,16 +126,27 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-k = 'move up'
     alt-shift-l = 'move right'
 
+    # join with keys below home row
+    alt-shift-n = 'join-with left'
+    alt-shift-m = 'join-with right'
+
     # See: https://nikitabobko.github.io/AeroSpace/commands#resize
     alt-minus = 'resize smart -50'
     alt-equal = 'resize smart +50'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-    alt-1 = 'workspace 1'
-    alt-2 = 'workspace 2'
-    alt-3 = 'workspace 3'
-    alt-4 = 'workspace 4'
-    alt-5 = 'workspace 5'
+    # ergonomic bindings above homerow
+    alt-y = 'workspace 1-Y'
+    alt-u = 'workspace 2-U'
+    alt-i = 'workspace 3-I'
+    alt-o = 'workspace 4-O'
+    alt-p = 'workspace 5-P'
+
+    # alt-1 = 'workspace 1'
+    # alt-2 = 'workspace 2'
+    # alt-3 = 'workspace 3'
+    # alt-4 = 'workspace 4'
+    # alt-5 = 'workspace 5'
 #     alt-6 = 'workspace 6'
 #     alt-7 = 'workspace 7'
 #     alt-8 = 'workspace 8'
@@ -164,11 +175,17 @@ automatically-unhide-macos-hidden-apps = false
 #     alt-z = 'workspace Z'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-1 = 'move-node-to-workspace 1'
-    alt-shift-2 = 'move-node-to-workspace 2'
-    alt-shift-3 = 'move-node-to-workspace 3'
-    alt-shift-4 = 'move-node-to-workspace 4'
-    alt-shift-5 = 'move-node-to-workspace 5'
+    alt-shift-y = 'move-node-to-workspace 1-Y '
+    alt-shift-u = 'move-node-to-workspace 2-U'
+    alt-shift-i = 'move-node-to-workspace 3-I'
+    alt-shift-o = 'move-node-to-workspace 4-O'
+    alt-shift-p = 'move-node-to-workspace 5-P'   
+
+    # alt-shift-1 = 'move-node-to-workspace 1'
+    # alt-shift-2 = 'move-node-to-workspace 2'
+    # alt-shift-3 = 'move-node-to-workspace 3'
+    # alt-shift-4 = 'move-node-to-workspace 4'
+    # alt-shift-5 = 'move-node-to-workspace 5'
 #     alt-shift-6 = 'move-node-to-workspace 6'
 #     alt-shift-7 = 'move-node-to-workspace 7'
 #     alt-shift-8 = 'move-node-to-workspace 8'
